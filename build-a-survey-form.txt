@@ -1,3 +1,5 @@
+** start of undefined **
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -37,3 +39,108 @@
     </form>
   </body>
 </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b621b;
+  color: #f5f6f7;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  }
+
+h1, p {
+  margin: 0em auto;
+  text-align: center;
+}
+
+#title {padding-top: 1em}
+#description {padding-bottom: 1em}
+
+form {
+  width: 80vw;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background: #132613;
+  border-radius:0.25rem;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 1px solid #fbfbff;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 1em;
+  padding-top: 1.25em
+}
+
+.connected
+ {padding-top: 0}
+
+input,
+textarea,
+select {
+  margin: 5px 0px 0px 0px;
+  width: 100%;
+  min-height: 2em;
+  border-radius:0.125rem;
+}
+
+input, textarea {
+  background-color: #fafaf3;
+  border: 1px solid #fafaf3;
+  color: #1f1f1f;
+}
+
+.inline {
+  width: 15;
+  margin: 0px 10px 0px 0px;
+  vertical-align: middle;
+} 
+
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 2em auto 0em;
+  height: 2em;
+  font-size: 1.1rem;
+  color:white;
+  background-color: #4bcb4f;
+  border-color: #4bbb4f;
+  min-width: 300px;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(58, 158, 58, 0.8), rgba(106, 186, 106, 0.7) ), url(https://images.freeimages.com/images/large-previews/101/red-lady-1241907.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+** end of undefined **
+
